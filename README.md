@@ -1,43 +1,21 @@
-# Python-Projects
-Requirements:
+Package Installs
 
-The input file
-The input file will be text based.
-Items to be replaced will be encased in square brackets
-[verb], [brand of car] etc.
-When the script is run it will read the file and prompt the user to replace the content of the square bracket place holders.
-"Please input a verb: ", "Please input a brand of car" etc
-The text contained inside the square brackets should be used in the prompt for the user allowing for any sort of content to be used in the brackets
-The output file
-The output file should always contain the exact content of the input file with the except of the content in brackets being replaced by the user supplied input
-The name of the output file should match the name supplied on the command line
-Program requirements
-It should read an input and output file from the command line, in that order. 
-It should explicitly close the files when it is done reading or writing them
-Example:
-
-Input file:
-
-The [animal] looked at the [object] and decided to [verb].
+You will need to install the package called requests to make the http request calls.
 
  
 
-User prompts and responses:
+The deliverables
 
-Please provide a animal:
+Using the IEX API, your program should accept a Stock symbol as the argument on the command line and do the following.
 
-rabbit
+For the stock passed in as an argument, do the following:
 
-Please provide an object:
+Print the current price of the stock. Format the price as currency (example: $214).
+Print the best price at Close over the last month.
+Print the best price at Close over the last year.
+Do the following for ALL stocks (so these calls will NOT be specific to your argument passed in):
 
-speaker
-
-Please provide a verb:
-
-sleep
-
- 
-
-Output file:
-
-The rabbit looked at the speaker and decided to sleep.
+Print the company names of the gainers.
+Print the company names of the losers.
+Print the Crypto currency with the lowest percent change.
+Print the Crypto currency with the highest percent change.
