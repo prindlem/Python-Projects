@@ -1,0 +1,2 @@
+The [celebrity] jumped in the [car type] and yelled [noun].
+The [number] jumped was the [descriptor] one.
