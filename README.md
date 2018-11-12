@@ -4,37 +4,60 @@ We are going to create 2 classes:
 2. Assignments
 
 The specification for these are as follows
+
 Students
+
 Properties
+
       i. id - an integer representing the student id
+      
       ii. first_name - a string representing the students first name
+      
       iii. last_name - a string representing the students last name
+      
       iv. assignments - a list of assignments
 
 Constructor
+
    A. Student(id, first_name, last_name)
+   
       So calling Student(123, "Sara", "smith") crates a new student with an id of 123, first name of Sara and last name of Smith.
       
 Methods
+
    A. get_full_name() - should return a string that combines the first and last name with a space, for example "Sara Smith".
+   
    B. get_assignments() - should return a list of all assignments the student has submitted.
-   C. get_assignment(name) - returns the first assignment in the list with a matching name. If no matching assignment is found it returns None.
+   
+   C. get_assignment(name) - returns the first assignment in the list with a matching name. If no matching assignment is found it 
+   returns None.
+   
    D. get_average() - returns the average grade of all assignments equally weighted
+   
        Note: ungraded assignments are not counted in the average
+       
    E. submit_assignment(assignment) - takes the supplied assignment and adds it to the list of the students submitted assignments
+   
    F. remove_assignment(name) - removes the first assignment with a matching name
 
 Assignments
+
 Properties
+
 name - a string representing the assignment name
+
 max_score - an integer representing the maximum possible score possible to get on the assignment
+
 grade - an integer representing the actual score on the assignment
 
 Constructor
+
 Assignment(name, max_score) - instantiates a assignment with a name of name and a maximum score of max_score. The grade should be initialized to None
 
 Methods
+
 assign_grade(grade) - sets the grade to the supplied integer grade value. If grade is higher than max_score the grade should be set to None
+
 Both of these should be defined in a file called classroom.py.
 
 You should also create a file called classroom_test.py which imports classrom.py and tests it as follows:
