@@ -1,7 +1,8 @@
 We are going to create 2 classes:
 
-Students
-Assignments
+1. Students
+2. Assignments
+
 The specification for these are as follows
 
 Students
